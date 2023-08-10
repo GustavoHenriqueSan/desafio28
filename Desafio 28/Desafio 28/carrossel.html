@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Carrossel</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/carrossel.js" defer></script>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="fade">
+                <img src="img/veiga1.jpg">
+                <img src="img/veiga2.jpg">
+                <img src="img/veiga3.jpg">
+                <img src="img/veiga4.jpg">
+            </div>
+            
+            <div class="fade">
+ 
+                <img src="img/dudu1.jpg">
+                <img src="img/dudu2.jpg">
+                <img src="img/dudu3.jpg">
+                <img src="img/dudu4.jpg">             
+            </div>
+            
+            <div class="fade">
+ 
+                <img src="img/deyv1.jpg">
+                <img src="img/deyv2.jpg">
+                <img src="img/deyv3.jpg">
+                <img src="img/deyv4.jpg">              
+            </div>
+
+            <a class="prev" onclick="plus_slides(-1)"> &#10094; </a>
+            <a class="next" onclick="plus_slides(1)"> &#10095; </a>
+        </div>
+
+        <div class="dot_box">
+            <span class="dot" onclick="current_slides(1)"></span>
+            <span class="dot" onclick="current_slides(2)"></span>
+            <span class="dot" onclick="current_slides(3)"></span>
+        </div>
+
+    </body>
+
+</html>

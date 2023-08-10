@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Target</title>
+        <meta charset="utf-8">
+        <style>
+
+            body{
+                background-color: #404f5c;
+            }
+
+            #box{
+                font-size: 18px;
+                margin: auto;
+                padding: 20px;
+                width: max-content;
+                background-color: #9fa5aa;
+            }
+
+            hr{
+                border: 2px solid #404f5c;
+            }
+
+            a{
+                display: flex;
+            }
+
+            p:target{
+                background-color: #151b20;
+                color: #ffffff;
+                padding: 15px;
+                transition: 0.5s;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="box">
+            <h1>Usando o comando target</h1>
+            <p>Escolha um dos links abaixo:</p>
+
+            <a href="#op1">Opção 1</a>
+            <a href="#op2">Opção 2</a>
+
+            <hr>
+            <p id="op1">1 - Português</p>
+            <p id="op2">2 - Matemática</p>
+        </div>
+    </body>
+
+</html>
